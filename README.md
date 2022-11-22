@@ -1,27 +1,32 @@
-In this project let's build a **Tasty Kitchens App** by applying the concepts we have learned till now. This project allows you to practice the concepts and techniques learned till React Course and apply them in a concrete project.
+In this project I build a **Tasty Kitchens App** by applying the concepts I have learned till now. 
 
-You will demonstrate your skills by creating an app that will fetch data from an internal server using a class component, displaying that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and adding responsiveness to the website.
+It is a **Responsive food delivery application** hving basic features and functionalities like ,
 
-This is an individual assessment. All work must be your own. You will also be given feedback by code reviewers after your project submission.
+**=>** User Login,Home Route contains Offers and restaurant list can be sorted by  functionality Lowest/Highest
+**=>** Can Add or Subtract the quantity of food items 
+**=>** Finally cart features like cart-items-list and total bill decrement/increment cart items in cart route and payment section etc 
 
-### Prerequisites
+### Implementation Steps 
 
-#### UI Prerequisites
+**=>** To achive these files more effective i have utilizied Figma mockups
 
-<details>
-<summary>Click to view</summary>
+**=>** Implemented different routes for login,home,specific restuarant details,cart by using React Router components Route,Switch,Link,Redirect etc.
 
-- What is Figma?
-  - Figma is a vector graphics editor and prototyping tool which is primarily web-based. You can check more info on the <a href="https://www.figma.com/" target="_blank">Website</a>.
-- Create a Free account in Figma
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=hrHL2VLMl7g&t=37s" target="_blank">this</a> video to create a Free Figma account.
-- How to Check CSS in Figma?
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=B242nuM3y2s" target="_blank">this</a> video to check CSS in the Figma screen.
-- Export Images in Figma screen
-  - Kindly follow the instructions as shown in <a href="https://www.youtube.com/watch?v=NpzL1MONwaw" target="_blank">this</a> video to export images from the Figma screen.
-  - Check <a href="https://help.trydesignlab.com/hc/en-us/articles/360011010634-How-do-I-export-images-and-PDFs-from-Sketch-or-Figma-in-my-short-course-" target="_blank">this</a> reference docs to export images in Figma screen.
+**=>** Used username and password for authentication login/logout
 
-</details>
+**=>** stored access token in Cookies for authorization on different routes
+
+**=>** Used a react-third-party-library React-Slick for implementing offers carousels in home route
+
+**=>** Used fetch to call REST APIs for restaurants with sortby,specific restaurant details
+
+**=>** Implemented Pagination to get a specific number of items from the list of items in a certain range
+
+**=>** Implemented Sortby functionality by which user can filter list by rating lowest/highest
+
+**=>** Implemented Adding items to Local Storage by using the key name cartData
+
+
 
 #### Design Files
 
