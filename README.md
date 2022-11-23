@@ -9,7 +9,7 @@ It is a **Responsive food delivery application** having basic features and funct
 
 ### Implementation Steps 
 
-- To achive these files more effective i have utilizied Figma mockups
+- To achive these files more effective I have utilizied Figma mockups
 
 - Implemented different routes for login,home,specific restuarant details,cart by using React Router components Route,Switch,Link,Redirect etc.
 
